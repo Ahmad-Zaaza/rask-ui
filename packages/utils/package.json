@@ -4,12 +4,6 @@
   "main": "index.js",
   "author": "Ahmad-Zaaza",
   "license": "MIT",
-  "devDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "peerDependencies": {
-    "react": ">= 16.8",
-    "react-dom": ">= 16.8"
-  }
+  "devDependencies": {},
+  "peerDependencies": {}
 }
