@@ -1,5 +1,0 @@
-{
-  "packages/**/*.{js,ts,tsx,jsx}": [
-    "eslint  --fix"
-  ]
-}
