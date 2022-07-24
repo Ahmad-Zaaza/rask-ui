@@ -1,8 +1,11 @@
-interface ButtonProps {}
+import { forwardRef } from "react";
+import { ButtonProps } from "./types";
 
-const Button = () => {
-  return <button>Hello world</button>;
+const Button = forwardRef<HTMLButtonElement, ButtonProps>(() => <button>Hello world</button>);
+
+Button.defaultProps = {
+  variant: "primary"
 };
+Button.displayName = "Button";
 
 export default Button;
-export type { ButtonProps };
